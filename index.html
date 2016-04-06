@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ko">
 <head>
-	<title>TwI PNG - Twitter用PNG変換ツール</title>
+	<title>TwI PNG - Twitter용 PNG 변환도구</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="「TwI PNG」はTwitterにアップロードしたPNG画像がJPEG画像に変換されるのを防ぐための画像変換ツールです。">
 	<meta name="keywords" content="Twitter,png,jpg,jpeg,変換">
@@ -49,7 +49,7 @@
 		<div id="head-inner">
 			<h1 id="title">TwI PNG</h1>
 			<p class="description">
-				Twitter用PNG変換ツール(ver.1.2.1)
+				Twitter용 PNG 변환 도구(ver.1.2.1)
 			</p>
 			<div class="social-btn">
 				<p class="social-btn-inner">
@@ -66,8 +66,8 @@
 				<h1 class="section-heading">Converter</h1>
 				<div class="section-body">
 					<div class="btn-area">
-						<input type="button" value="画像を選択" class="select-btn" id="select-btn">
-						<a href="javascript:void(0);" class="save-btn inactive" id="save-btn">画像を保存</a>
+						<input type="button" value="이미지 선택" class="select-btn" id="select-btn">
+						<a href="javascript:void(0);" class="save-btn inactive" id="save-btn">이미지 저장</a>
 					</div>
 					<input type="file" id="file">
 					<div class="result-area">
@@ -77,43 +77,43 @@
 						</div>
 					</div>
 					<div class="mode-area">
-						<h2 class="mode-area-title">モード選択(仮)</h2>
+						<h2 class="mode-area-title">모드 선택</h2>
 						<p class="mode-radio-wrap">
 							<input type="radio" name="mode-radio" class="mode-radio" id="mode-convert" checked>
-							<label for="mode-convert" class="mode-radio-label">変換する</label>
+							<label for="mode-convert" class="mode-radio-label">변환</label>
 						</p>
 						<p class="mode-radio-wrap">
 							<input type="radio" name="mode-radio" class="mode-radio" id="mode-reinstate">
-							<label for="mode-reinstate" class="mode-radio-label">透明度を戻す</label>
+							<label for="mode-reinstate" class="mode-radio-label">되돌리기</label>
 						</p>
-						<p style="font-size: 14px;"><a href="#about-mode">モード選択(仮)とは？</a></p>
+						<p style="font-size: 14px;"><a href="#about-mode">모드 선택이란?</a></p>
 					</div>
-					<h2>おしらせ</h2>
+					<h2>공지사항</h2>
 					<p>
-						※モード選択は画像を選択する前に行ってください。<br>
-						※ボタンで保存できないときは上の画像から保存してみてください。<br>
-						※大きすぎる画像を読み込むとブラウザが固まることがあります。(2000*2000pxまでをおすすめします)<br>
-						<span class="war-text">※確実にPNG画像としてアップロードできるとは保証できません。</span><br>
-						※<a href="#about">ABOUT</a>にて仕様を確認してください。
+						※이미지를 선택하기 전에 기본설정을 해주세요.<br>
+						※버튼으로 저장할 수 없으면 이미지를 클릭하여 저장하시면 됩니다.<br>
+						※너무 큰 그림을 올리면 브라우저가 뻗을 수도 있습니다. (2000*2000px 크기 이하의 그림을 추천합니다)<br>
+						<span class="war-text">※반드시 PNG파일로 업로드 할수 있다는 보장이 없습니다.</span><br>
+						※<a href="#about">ABOUT</a>에서 내용을 확인해보세요.
 					</p>
-					<h2 class="war-text">PNGで投稿できないクライアント</h2>
+					<h2 class="war-text">PNG로 업로드 할 수 없는 클라이언트</h2>
 					<ul class="war-text">
-						<li>Twitter for iPhone(公式iPhone版)</li>
-						<li>Twitter for Android(公式Android版)</li>
+						<li>Twitter for iPhone(공식 iPhone App)</li>
+						<li>Twitter for Android(공식 Android App)</li>
 					</ul>
 					<p class="war-text">
-						スマホのクライアントからつぶやくとJPEGになってしまうかもしれません。
+						스마트폰의 클라이언트에서 트윗을 하면 JPEG(JPG)로 변환될 지도 모릅니다.
 					</p>
-					<h2>PNGで投稿に成功したクライアント</h2>
+					<h2>PNG로 업로드에 성공한 클라이언트</h2>
 					<ul>
-						<li>Twitter Web Client(公式PC版Web)</li>
-						<li>TweetDeck(PC版)</li>
+						<li>Twitter Web Client(공식 Web)</li>
+						<li>TweetDeck(PC 버전)</li>
 					</ul>
-					<h2>動作確認ブラウザ</h2>
+					<h2>테스트 브라우저</h2>
 					<ul>
-						<li>Google Chrome (PC版)</li>
-						<li>Google Chrome (Android版)</li>
-						<li>Firefox (PC版)</li>
+						<li>Google Chrome (PC 버전)</li>
+						<li>Google Chrome (Android 버전)</li>
+						<li>Firefox (PC 버전)</li>
 						<li>Edge</li>
 						<li>IE11</li>
 					</ul>
@@ -122,54 +122,54 @@
 			<section class="about-section">
 				<h1 class="section-heading" id="about">About</h1>
 				<div class="section-body">
-					<h2>TwI PNGとは？</h2>
+					<h2>TwI PNG란?</h2>
 					<p>
-						「TwI PNG」はTwitterにアップロードしたPNG画像がJPEG画像に変換されるのを防ぐための画像変換ツールです。
+						「TwI PNG」는 Twitter에 업로드 된 PNG 이미지가 강제로 JPEG(JPG)로 변환되는 것을 막기 위한 변환 도구입니다.
 					</p>
-					<h2>どうやってるの？</h2>
+					<h2>사용 방법은?</h2>
 					<p>
-						具体的な処理は画像の左上1pxを不透明度99%にしてPNG32(透過あり)の状態にするというものです。
+						구체적인 동작 방식은 이미지의 왼쪽 1px 부분을 불투명도 99퍼센트로 처리하고 PNG32 (투과있음)으로 변경시키는 것입니다.
 					</p>
 					<p>
-						HTML5のCanvasを使用していますので処理はブラウザ上で完結しています。<br>
-						サーバー負荷とかは一切ないのでいくらでも変換しちゃってください！
+						HTML5의 Canvas를 사용하고 있기 때문에 브라우저단에서 처리를 하고 있습니다.<br>
+						서버 부하가 전혀 없으니 변환이 필요하면 마음껏 쓰세요!
 					</p>
 
-					<h2 id="about-mode">モード選択(仮)について</h2>
+					<h2 id="about-mode">모드 선택에 대해</h2>
 					<p>
-						「透明度を戻す」にチェックを入れてTwI PNGで変換した画像を選択すると左上1pxの不透明度を100%に変換するようになります。
+						「되돌리기」에 체크를 하면 TwI PNG를 통해 변환된 이미지를 원래 왼쪽 1px 이 불투명도 100%인 이미지로 변환 할 수 있습니다.
 					</p>
 					<p>
-						変換した画像の不透明度を元に戻したいときにお使いください。
+						변환 한 이미지의 불투명도를 취소할 때 사용하시면 됩니다.
 					</p>
 					<p>
-						モード選択は画像を選択する前に行ってください。
+						설정은 이미지를 선택하기 전에 하셔야 합니다.
 					</p>
 					<p>
-						TwI PNGで変換した画像以外ではまったく意味がないのでご注意ください。
+						TwI PNG로 변환한 이미지를 제외하면 전혀 의미가 없으므로 주의해주세요.
 					</p>
 
-					<h2 class="war-text">注意</h2>
+					<h2 class="war-text">주의</h2>
 					<p class="war-text">
-						左上の1pxが(限りなく不透明に近い)半透明になります。
+						왼쪽 1px이 (불투명에 가까운) 반투명입니다.
 					</p>
 					<p class="war-text">
-						PNG画像としてツイートできることを確認していますが保証はできませんのでご了承ください。
+						PNG 이미지로 트윗 할 수 있는지 확인하고 있으나, 확실하지 않으니 양해 바랍니다.
 					</p>
 					<p class="war-text">
-						大きすぎる画像を読み込むとブラウザが固まります。
+						대용량의 그림을 로드하면 브라우저가 죽습니다.
 					</p>
 					<p class="war-text">
-						いつTwitterの仕様変更で使えなくなるかわかりません！ご注意ください！
+						Twitter의 업데이트에 따라서 사용할 수 없게 될지도 모릅니다! 주의!
 					</p>
-					<h2>更新履歴</h2>
+					<h2>업데이트 내역</h2>
 					<ul>
-						<li>2016/03/05: ver.1.2.1 通知表示を追加</li>
-						<li>2016/03/03: ver.1.2.0 モード選択(仮)を追加</li>
-						<li>2016/03/01: ver.1.1.0 保存方式を変更, リサイズを廃止, 安定性向上</li>
-						<li>2016/02/28: ver.1.0.0 リリース</li>
+						<li>2016/03/05: ver.1.2.1 알림 표시를 추가</li>
+						<li>2016/03/03: ver.1.2.0 모드 선택을 추가</li>
+						<li>2016/03/01: ver.1.1.0 저장 방식을 변경, 크기 조절 삭제, 안정성 향상</li>
+						<li>2016/02/28: ver.1.0.0 릴리즈</li>
 					</ul>
-					<h2>つくったひと</h2>
+					<h2>만든이</h2>
 					<p>
 						Twitter: <a href="https://twitter.com/totoraj930">@totoraj930</a>
 					</p>
@@ -179,13 +179,13 @@
 				<h1 class="section-heading">How to use</h1>
 				<div class="section-body">
 					<h2><span>1</span>: Select</h2>
-					<p>変換したい画像を選択します。</p>
+					<p>변환 할 이미지를 선택합니다.</p>
 					<img src="img/howtouse01.png" alt="画像を選択しているところ">
 					<h2><span>2</span>: Save</h2>
-					<p>変換された画像を保存します。</p>
+					<p>변환 된 이미지를 저장합니다.</p>
 					<img src="img/howtouse02.png" alt="画像を保存しているところ">
 					<h2><span>3</span>: Tweet!</h2>
-					<p>あとは保存した画像をつぶやくだけです！</p>
+					<p>다음에 저장된 이미지를 트윗합니다!</p>
 					<img src="img/howtouse03.png" alt="画像をツイートしているところ">
 				</div>
 			</section>
@@ -198,6 +198,7 @@
 			<p class="copyright">
 				&copy; 2016 totoraj. All rights reserved. This site was designed by totoraj.
 			</p>
+
 		</div>
 	</footer>
 	<!-- Tweetボタン -->
